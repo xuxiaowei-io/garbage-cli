@@ -1,0 +1,33 @@
+{
+  "name": "garbage-cli",
+  "version": "0.0.1-alpha.1",
+  "description": "垃圾清理",
+  "keywords": [
+    "garbage-cli",
+    "garbage",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxiaowei-io/garbage-cli.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "徐晓伟",
+    "url": "https://xuxiaowei.io",
+    "email": "xuxiaowei@xuxiaowei.com.cn"
+  },
+  "type": "module",
+  "bin": {
+    "garbage-cli": "src/garbage-cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "help": "node src/garbage-cli.js"
+  }
+}
